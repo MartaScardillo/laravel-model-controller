@@ -14,8 +14,7 @@
                         <div class="card">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $movie["title"] }}</h5>
-                                <p class="card-text">{{ $movie["id"] }}</p>
-                                <p class="card-text">{{ $movie["date"] }}</p>
+                                <p class="card-text">Rate: {{ $movie["id"] }}, Date: {{ $movie["date"] }}</p>
                             </div>
                         </div>
                     </div>
